@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "/opt/build/repo/build"
+
+[plugins]
+  [[plugins]]
+    package = "@netlify/plugin-nextjs"
+    origin = "ui"
+    inputs = {}
