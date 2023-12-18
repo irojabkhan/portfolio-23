@@ -7,7 +7,10 @@ function Experiences() {
   
   return (
     <>
-        <section id='experiences' className='mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24' aria-label="experience">
+        <section 
+          id='experiences' 
+          className='mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24'
+        >
           <ol className='group/list'>
             {experiences.map((experience, index) => (
               <ExperienceItem 
