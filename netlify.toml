@@ -1,5 +1,0 @@
-[build]
-  command = "npm run build"
-  functions = "out_functions"
-  publish = ".next"
-  environment = { NETLIFY_NEXT_PLUGIN_SKIP = "true" }

@@ -1,4 +1,4 @@
-"use client"
+'use client'
 import AboutMe from '@/components/AboutMe/AboutMe';
 import Experiences from '@/components/Experiences/Experiences';
 import Projects from '@/components/Projects/Projects';
