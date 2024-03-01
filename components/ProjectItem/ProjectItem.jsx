@@ -2,7 +2,8 @@ import React from "react";
 import { UpArrow } from "../Icons/Icons";
 import Badge from "../Badge/Badge";
 
-function ProjectItem({ thumbnail, title, description, tags }) {
+function ProjectItem({ thumbnail, title, description, tags, demo }) {
+  console.log(demo);
   return (
     <li className="mb-12">
       <div className="group relative grid gap-4 pb-1 transition-all sm:grid-cols-8 sm:gap-8 md:gap-4 lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
@@ -22,7 +23,7 @@ function ProjectItem({ thumbnail, title, description, tags }) {
           <h3>
             <a
               className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
-              href="#"
+              href={demo ? demo : "#"}
               target="_blank"
             >
               <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
