@@ -1,7 +1,6 @@
 export const projects = [
   {
-    thumbnail:
-      "https://img.money.com/2023/06/Explainer-Write-Resume.jpg?quality=85",
+    thumbnail: "https://syllaby.io/wp-content/uploads/2024/02/Frame-9544-4.png",
     title: "Syllaby",
     description:
       "Discover Trending Content and Seamlessly Create, Edit, Schedule and Track Videos with AI Magic",
