@@ -2,6 +2,15 @@ export const projects = [
   {
     thumbnail:
       "https://img.money.com/2023/06/Explainer-Write-Resume.jpg?quality=85",
+    title: "Syllaby",
+    description:
+      "Discover Trending Content and Seamlessly Create, Edit, Schedule and Track Videos with AI Magic",
+    tags: ["React", "NextJs", "TypeScript", "And Design", "TailwindCSS"],
+    demo: "https://ai.syllaby.io/",
+  },
+  {
+    thumbnail:
+      "https://img.money.com/2023/06/Explainer-Write-Resume.jpg?quality=85",
     title: "Resume Builder",
     description:
       "Introducing our revolutionary Resume Builder App. Craft professional resumes effortlessly with sleek templates and seamless customization. Say hello to streamlined job applications and unlock new career opportunities. Get started today.",
